@@ -1,9 +1,9 @@
 package db
 
 import (
-	"CPS406-Assignment-Backend/pkg/coach"
-	"CPS406-Assignment-Backend/pkg/finance"
-	"CPS406-Assignment-Backend/pkg/user"
+	"Backend/pkg/coach"
+	"Backend/pkg/finance"
+	"Backend/pkg/user"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

@@ -1,10 +1,10 @@
 package server
 
 import (
-	"CPS406-Assignment-Backend/internal/api/http/coach"
-	"CPS406-Assignment-Backend/internal/api/http/finance"
-	"CPS406-Assignment-Backend/internal/api/http/user"
-	"CPS406-Assignment-Backend/internal/util"
+	"Backend/internal/api/http/coach"
+	"Backend/internal/api/http/finance"
+	"Backend/internal/api/http/user"
+	"Backend/internal/util"
 	"github.com/go-chi/chi/v5"
 	"gorm.io/gorm"
 	"net/http"

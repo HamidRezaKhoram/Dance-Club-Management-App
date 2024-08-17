@@ -1,10 +1,10 @@
 package user
 
 import (
-	"CPS406-Assignment-Backend/internal/util"
-	"CPS406-Assignment-Backend/pkg/jwtM"
-	"CPS406-Assignment-Backend/pkg/login"
-	"CPS406-Assignment-Backend/pkg/user"
+	"Backend/internal/util"
+	"Backend/pkg/jwtM"
+	"Backend/pkg/login"
+	"Backend/pkg/user"
 	"encoding/json"
 	"fmt"
 	"github.com/go-chi/chi/v5"

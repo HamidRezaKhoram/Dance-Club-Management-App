@@ -1,4 +1,4 @@
-module CPS406-Assignment-Backend
+module Backend
 
 go 1.21
 

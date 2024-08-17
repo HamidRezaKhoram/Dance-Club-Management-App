@@ -1,9 +1,9 @@
 package util
 
 import (
-	"CPS406-Assignment-Backend/pkg/coach"
-	"CPS406-Assignment-Backend/pkg/jwtM"
-	"CPS406-Assignment-Backend/pkg/user"
+	"Backend/pkg/coach"
+	"Backend/pkg/jwtM"
+	"Backend/pkg/user"
 	"encoding/json"
 	"github.com/golang-jwt/jwt/v4"
 	"gorm.io/gorm"

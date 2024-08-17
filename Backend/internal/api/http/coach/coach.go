@@ -1,10 +1,10 @@
 package coach
 
 import (
-	"CPS406-Assignment-Backend/internal/util"
-	"CPS406-Assignment-Backend/pkg/coach"
-	"CPS406-Assignment-Backend/pkg/jwtM"
-	"CPS406-Assignment-Backend/pkg/user"
+	"Backend/internal/util"
+	"Backend/pkg/coach"
+	"Backend/pkg/jwtM"
+	"Backend/pkg/user"
 	"encoding/json"
 	"github.com/go-chi/chi/v5"
 	"gorm.io/gorm"

@@ -1,10 +1,10 @@
 package finance
 
 import (
-	"CPS406-Assignment-Backend/internal/util"
-	"CPS406-Assignment-Backend/pkg/coach"
-	"CPS406-Assignment-Backend/pkg/finance"
-	"CPS406-Assignment-Backend/pkg/user"
+	"Backend/internal/util"
+	"Backend/pkg/coach"
+	"Backend/pkg/finance"
+	"Backend/pkg/user"
 	"encoding/json"
 	"github.com/go-chi/chi/v5"
 	"gorm.io/gorm"

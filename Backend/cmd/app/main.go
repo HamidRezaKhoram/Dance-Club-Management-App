@@ -1,8 +1,8 @@
 package main
 
 import (
-	"CPS406-Assignment-Backend/internal/api/http/server"
-	"CPS406-Assignment-Backend/internal/db"
+	"Backend/internal/api/http/server"
+	"Backend/internal/db"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/joho/godotenv"
@@ -25,6 +25,7 @@ func main() {
 	// Load the .env file
 	err := godotenv.Load()
 	if err != nil {
+		log.Fatal(err.Error())
 		log.Fatalf("Error loading .env file")
 	}
 	// A good base middleware stack
