@@ -3,15 +3,16 @@ package main
 import (
 	"Backend/internal/api/http/server"
 	"Backend/internal/db"
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
-	"github.com/joho/godotenv"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
+	"github.com/joho/godotenv"
 )
 
 // main is the entry point of the application
@@ -23,11 +24,13 @@ func main() {
 	// Seed the database
 	db.SeedDatabase(dataBase)
 	// Load the .env file
+
 	err := godotenv.Load()
-	if err != nil {
+	if err != nil && os.Getenv("ENV") != "PROD" {
 		log.Fatal(err.Error())
 		log.Fatalf("Error loading .env file")
 	}
+
 	// A good base middleware stack
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID)

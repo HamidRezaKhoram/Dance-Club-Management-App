@@ -1,0 +1,4 @@
+SECRET=banana
+PORT=8080
+DIST=../../../Frontend/dist
+ENV=PROD
